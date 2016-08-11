@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.frankincense4ever.f4e.Recipes2"
+    tools:showIn="@layout/activity_recipes2"
+    android:background="#c86d51">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Stress Relief"
+        android:id="@+id/stress_relief"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:onClick="stress_relief_mixer_menu" />
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="The Struggle Is Real"
+        android:id="@+id/the_struggle_is_real"
+        android:layout_below="@+id/stress_relief"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Hormone Hijack"
+        android:id="@+id/hormone_hijack"
+        android:layout_below="@+id/the_struggle_is_real"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="I dream of sleeping"
+        android:id="@+id/i_dream_of_sleeping"
+        android:layout_below="@+id/hormone_hijack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Workin&apos; out"
+        android:id="@+id/Workin_out"
+        android:layout_below="@+id/i_dream_of_sleeping"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="For the girls"
+        android:id="@+id/for_the_girls"
+        android:layout_below="@+id/Workin_out"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="For the guys"
+        android:id="@+id/for_the_guys"
+        android:layout_below="@+id/for_the_girls"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Cutie Patootie"
+        android:id="@+id/cutie_patootie"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:background="#165161" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="skin care"
+        android:id="@+id/skin_care"
+        android:layout_below="@+id/cutie_patootie"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="teacher appreciation"
+        android:id="@+id/teacher_appreciation"
+        android:layout_below="@+id/skin_care"
+        android:layout_alignRight="@+id/skin_care"
+        android:layout_alignEnd="@+id/skin_care"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Winter"
+        android:id="@+id/winter"
+        android:layout_below="@+id/teacher_appreciation"
+        android:layout_alignRight="@+id/teacher_appreciation"
+        android:layout_alignEnd="@+id/teacher_appreciation"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Spring"
+        android:id="@+id/spring"
+        android:layout_below="@+id/winter"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Summer"
+        android:id="@+id/summer"
+        android:layout_below="@+id/spring"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Fall"
+        android:id="@+id/fall"
+        android:layout_below="@+id/summer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffff"
+        android:background="#165161"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.frankincense4ever.f4e.Stress_Relief_Mixer_Menu"
+    tools:showIn="@layout/activity_stress__relief__mixer__menu">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STRESS RELIEF MIXER MENU"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#d3215d"
+                    android:textAlignment="center"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PRODUCTS DESIGNED TO HELP “CHILLAX” AND UNWIND FROM OUR BEYOND-HECTIC DAILY LIVES."
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="#d3215d"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SCROLL THROUGH OUR BLEND DESCRIPTIONS BELOW.  EACH RECIPE BLEND IS $0.99.  TAP IMAGE TO PURCHASE."
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#ff8e02"
+                    android:textAlignment="center"
+                    android:onClick="Just_Chill" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/card0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"                >
+
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1.0"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/just_chill"
+                    android:longClickable="false"
+                    android:id="@+id/Just_Chill"
+                    android:onClick="just_chill"
+                    android:nestedScrollingEnabled="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10ml Rollerball"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/card1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+
+                >
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1.0"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/today_i_am_a_worry_wort"
+                    android:longClickable="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10ml Spray Bottle"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/card2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+
+                >
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1.0"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/lavender_and_eucalyptus_bath_salts"
+                    android:longClickable="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10oz Bath Salts"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/card3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+
+                >
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1.0"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/buzz_off"
+                    android:longClickable="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30ml Spray Bottle"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            card_view:cardCornerRadius="4dp"
+            android:layout_margin="4dp"
+            android:id="@+id/card4">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+
+                >
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1.0"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/hand_purifier"
+                    android:longClickable="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30ml Spray Bottle"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

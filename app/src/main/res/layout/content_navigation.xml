@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.frankincense4ever.f4e.Navigation"
+    tools:showIn="@layout/app_bar_navigation"
+    android:background="#c86f51">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Host A Mixer"
+        android:id="@+id/mixer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#165161"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="mixer" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testimonials"
+        android:id="@+id/testimonials"
+        android:layout_below="@+id/mixer"
+        android:layout_alignLeft="@+id/mixer"
+        android:layout_alignStart="@+id/mixer"
+        android:background="#165161"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="testimonials" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Events"
+        android:id="@+id/events"
+        android:layout_below="@+id/testimonials"
+        android:layout_centerHorizontal="true"
+        android:background="#165161"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="events" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F4E Store"
+        android:id="@+id/store"
+        android:layout_below="@+id/events"
+        android:layout_centerHorizontal="true"
+        android:background="#165161"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="store" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:id="@+id/contact"
+        android:layout_below="@+id/store"
+        android:layout_alignLeft="@+id/store"
+        android:layout_alignStart="@+id/store"
+        android:background="#165161"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:onClick="contact" />
+</RelativeLayout>

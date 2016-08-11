@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mixer"
+            android:title="Host A Mixer" />
+        <item
+            android:id="@+id/nav_testimonials"
+            android:title="Testimonials" />
+        <item
+            android:id="@+id/nav_events"
+            android:title="Upcoming Events" />
+        <item
+            android:id="@+id/nav_store"
+            android:title="F4E Store" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact Me" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
